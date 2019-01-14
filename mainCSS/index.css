@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabMenu{
+    display: flex;
+    overflow: hidden;
+    /*border: 1px solid rgb(136,162,70);*/
+    background-color: rgb(136,162,70);
+    box-shadow: 0px 3px 3px grey;
+}
+.tabLinks{
+    background-color: inherit;
+    display: flex;
+    border: none;
+    border-bottom: solid 2px rgb(136,162,70);
+    padding: 14px 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #C6E284;
+    font: 16px  "Droid Sans Mono" ;
+
+}
+.tabLinks:focus{
+    outline: 0;
+}
+.tabLinks.active{
+    color: white;
+    border-bottom:solid 2px  #FEF786;
+}
+.tabContent{
+    display: none;
+    padding: 25px 18px;
+    font: 16px "Droid Sans Mono";
+
+}

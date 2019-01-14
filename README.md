@@ -1,0 +1,1 @@
+Simple tabs with no animation
