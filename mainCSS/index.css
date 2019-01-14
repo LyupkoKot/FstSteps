@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+    max-width: 980px;
+    margin: auto;
+
+}
+.header{
+    margin: auto;
+
 }
 .tabMenu{
     display: flex;
@@ -9,13 +19,14 @@
     /*border: 1px solid rgb(136,162,70);*/
     background-color: rgb(136,162,70);
     box-shadow: 0px 3px 3px grey;
+
 }
 .tabLinks{
     background-color: inherit;
     display: flex;
     border: none;
     border-bottom: solid 2px rgb(136,162,70);
-    padding: 14px 18px;
+    padding: 14px 35px;
     cursor: pointer;
     transition: 0.3s;
     color: #C6E284;
@@ -31,6 +42,7 @@
 }
 .tabContent{
     display: none;
+    width: 360px;
     padding: 25px 18px;
     font: 16px "Droid Sans Mono";
 
